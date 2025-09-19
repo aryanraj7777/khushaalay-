@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khushaalay – Giving & Gratitude for Children</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      background: #fdfdfd;
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    /* Hero Section */
+    header {
+      background: url('https://img.freepik.com/free-vector/children-education-concept_52683-36519.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.5);
+    }
+
+    header .content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      animation: fadeIn 2s ease;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      animation: slideDown 2s ease;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      animation: fadeInUp 2.5s ease;
+    }
+
+    header a {
+      background: #ff9800;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      animation: bounce 3s infinite;
+    }
+
+    header a:hover {
+      background: #e68900;
+    }
+
+    /* Section */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #ff9800;
+      animation: fadeInUp 1.5s ease;
+    }
+
+    section p {
+      animation: fadeIn 2s ease;
+    }
+
+    /* Features */
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+      animation: fadeInUp 1.5s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px) scale(1.03);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    /* CTA Section */
+    .cta {
+      background: linear-gradient(135deg, #ff9800, #ff5722);
+      color: white;
+      padding: 40px 20px;
+      border-radius: 15px;
+      margin-top: 40px;
+      animation: fadeIn 2s ease;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin-top: 20px;
+      background: white;
+      color: #ff5722;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .cta a:hover {
+      background: #ffe0b2;
+      color: #e64a19;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+      animation: fadeInUp 2s ease;
+    }
+
+    footer a {
+      color: #ff9800;
+      text-decoration: none;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes fadeInUp {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    @keyframes slideDown {
+      from {transform: translateY(-50px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+      40% {transform: translateY(-10px);}
+      60% {transform: translateY(-5px);}
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <header>
+    <div class="content">
+      <h1>🌸 Welcome to Khushaalay 🌸</h1>
+      <p>A Global Circle of Giving & Gratitude for Children</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_ROlnfse5zptR7mQeiCN5xZof3vcghMliYM166pFg8fK4uA/viewform?usp=header" target="_blank">
+        ✅ I want my child to join Khushaalay
+      </a>
+    </div>
+  </header>
+
+  <!-- Why Section -->
+  <section>
+    <h2>🌟 Why Giving & Gratitude?</h2>
+    <p>Science shows that gratitude rewires the brain for happiness, and giving unlocks deeper meaning and connection. At Khushaalay, children practice these two powerful habits every Sunday—building emotional strength that lasts a lifetime.</p>
+  </section>
+
+  <!-- Features Section -->
+  <section>
+    <h2>✨ The Khushaalay Experience</h2>
+    <div class="features">
+      <div class="card">
+        <h3>📖 Gratitude Journals & Sharing Circles</h3>
+        <p>Kids learn to notice and appreciate life’s blessings.</p>
+      </div>
+      <div class="card">
+        <h3>🤝 Giving in Action</h3>
+        <p>Simple acts of kindness every week to nurture compassion.</p>
+      </div>
+      <div class="card">
+        <h3>🧘 Meditation for Calm</h3>
+        <p>Helping children find focus and inner peace.</p>
+      </div>
+      <div class="card">
+        <h3>🎮 Growth Mindset Games</h3>
+        <p>Building resilience and confidence.</p>
+      </div>
+      <div class="card">
+        <h3>🌍 Global Collaboration</h3>
+        <p>Connecting with children from around the world.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parents Section -->
+  <section class="cta">
+    <h2>💖 For Parents</h2>
+    <p>We know every parent wants their child to be not only successful—but deeply happy. That’s why we also ask you:</p>
+    <blockquote><strong>“What’s the biggest challenge your child faces today?”</strong></blockquote>
+    <p>Your answers will help us create meaningful solutions for families worldwide.</p>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_ROlnfse5zptR7mQeiCN5xZof3vcghMliYM166pFg8fK4uA/viewform?usp=header" target="_blank">
+      ✅ Yes, I want my child to join Khushaalay
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>🌸 Created with ❤️ by Aryan Raj | <a href="#">Back to Top</a></p>
+  </footer>
+</body>
+</html>
